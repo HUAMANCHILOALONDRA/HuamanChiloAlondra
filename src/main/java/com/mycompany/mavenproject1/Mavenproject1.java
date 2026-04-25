@@ -10,8 +10,6 @@ public class Mavenproject1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        //ingreso de datos
-        
         System.out.println("Ingrese las horas 0-23: ");
         int h = sc.nextInt();
         
