@@ -34,6 +34,7 @@ public class DescuentoPension {
         } else {
             descuento = 0;
         }
+        //prueba commit
         
         double montoDescuento = pension*descuento;
         
@@ -43,6 +44,7 @@ public class DescuentoPension {
         }else{
             bono = 0;
         }
+        //prueba commit
         double total = pension - montoDescuento - bono;
         
         System.out.println("\n--- DESGLOSE DE MATRICULA ---");
